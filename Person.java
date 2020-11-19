@@ -38,4 +38,10 @@ private String familyName;
 	return age;
 	}
 
+	public void printFullName(){
+	System.out.println(fullName + " " + otherNames + " " familyName);
+	}
+
+	public String toString(){
+	 
 }
